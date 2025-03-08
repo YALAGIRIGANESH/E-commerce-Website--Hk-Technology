@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+
+
+
+
+    <!-- Header Section -->
+    <header class="header">
+        <nav class="navbar">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">
+                    <img src="Resource/logo.jpg" alt="" class="logo-img">
+                    <span>HK Technology</span>
+                </a>
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link">
+                            <i class="fas fa-home"></i>
+                            <span>Home</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="index.html#products" class="nav-link">
+                            <i class="fas fa-box"></i>
+                            <span>Products</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="about.html" class="nav-link">
+                            <i class="fas fa-info-circle"></i>
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">
+                            <i class="fas fa-envelope"></i>
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Welcome to Our Store</h1>
+        <p>Discover Amazing Products at Great Prices</p>
+    </section>
+
+
+
+
+
+
+
+
+    
+    <!-- Featured Products Section -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+        <div class="product-container">
+
+            <!-- First Product Card -->
+            <div class="product-card">
+                <img src="Resource\pioneer image.jpg" alt="Water Level Controller">
+                <div class="product-info">
+                    <h3>Water Level Controller</h3>
+                    <p class="price">Rs 500 / Piece</p>
+                    <p class="description">High-quality automatic water level controller.</p>
+                    <div class="product-details">
+                        <ul>
+                            <li>Microcontroller based circuit</li>
+                            <li>Automatic tank filling</li>
+                            <li>2HP motor support</li>
+                        </ul>
+                    </div>
+                    <button class="more-info-btn" data-product="1">More Info</button>
+                    <div class="button-group">
+                        <button class="call-now-btn">
+                            <i class="fas fa-phone"></i> Call
+                        </button>
+                        <button class="callback-btn">Callback</button>
+                    </div>
+                </div>
+            </div>
+            
+
+
+
+
+
+            <!-- Second Product Card -->
+            <div class="product-card">
+                <img src="Resource\purifier.jpg" alt="Smart Controller">
+                <div class="product-info">
+                    <h3>Smart Controller</h3>
+                    <p class="price">Rs 750 / Piece</p>
+                    <p class="description">WiFi-enabled smart water controller.</p>
+                    <div class="product-details">
+                        <ul>
+                            <li>WiFi connectivity</li>
+                            <li>Mobile app control</li>
+                            <li>3HP motor support</li>
+                        </ul>
+                    </div>
+                    <button class="more-info-btn" data-product="2">More Info</button>
+                    <div class="button-group">
+                        <button class="call-now-btn">
+                            <i class="fas fa-phone"></i> Call
+                        </button>
+                        <button class="callback-btn">Callback</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+            <!-- Third Product Card -->
+            <div class="product-card">
+                <img src="Resource\softner.jpg" alt="Basic Controller">
+                <div class="product-info">
+                    <h3>Basic Controller</h3>
+                    <p class="price">Rs 350 / Piece</p>
+                    <p class="description">Simple and reliable water controller.</p>
+                    <div class="product-details">
+                        <ul>
+                            <li>Easy installation</li>
+                            <li>Manual override</li>
+                            <li>1HP motor support</li>
+                        </ul>
+                    </div>
+                    <button class="more-info-btn" data-product="3">More Info</button>
+                    <div class="button-group">
+                        <button class="call-now-btn">
+                            <i class="fas fa-phone"></i> Call
+                        </button>
+                        <button class="callback-btn">Callback</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+            <!-- Fourth Product Card -->
+            <div class="product-card">
+                <img src="Resource\pioneer image.jpg" alt="Premium Controller">
+                <div class="product-info">
+                    <h3>Premium Controller</h3>
+                    <p class="price">Rs 999 / Piece</p>
+                    <p class="description">Advanced controller with smart features.</p>
+                    <div class="product-details">
+                        <ul>
+                            <li>Dual tank support</li>
+                            <li>LCD display</li>
+                            <li>5HP motor support</li>
+                        </ul>
+                    </div>
+                    <button class="more-info-btn" data-product="4">More Info</button>
+                    <div class="button-group">
+                        <button class="call-now-btn">
+                            <i class="fas fa-phone"></i> Call
+                        </button>
+                        <button class="callback-btn">Callback</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Callback Modal -->
+    <div id="callback-modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Request Callback</h2>
+            <form id="callback-form">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" name="name" id="callback-name" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone Number</label>
+                    <input type="tel" name="phone" id="callback-phone" required>
+                </div>
+                <div class="form-group">
+                    <label>Best Time to Call</label>
+                    <select name="preferred_time" id="callback-time">
+                        <option value="morning">Morning (9AM - 12PM)</option>
+                        <option value="afternoon">Afternoon (12PM - 4PM)</option>
+                        <option value="evening">Evening (4PM - 7PM)</option>
+                    </select>
+                </div>
+                <button type="submit" class="callback-submit-btn">Submit Request</button>
+            </form>
+        </div>
+    </div>
+
+
+
+
+
+
+    <!-- More Info Modals -->
+    <div id="more-info-modal-1" class="modal more-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Water Level Controller - Detailed Information</h2>
+            <div class="detailed-info">
+                <h3>Technical Specifications</h3>
+                <ul>
+                    <li>Operating Voltage: 230V AC</li>
+                    <li>Motor Capacity: Up to 2HP</li>
+                    <li>Sensor Type: Magnetic Float</li>
+                    <li>Control Type: Automatic</li>
+                    <li>Installation Type: Wall Mount</li>
+                </ul>
+                <h3>Features</h3>
+                <ul>
+                    <li>Advanced microcontroller-based circuit for reliable operation</li>
+                    <li>Automatic water level sensing and pump control</li>
+                    <li>Dry run protection for motor safety</li>
+                    <li>LED indicators for tank status</li>
+                    <li>Manual override option</li>
+                </ul>
+                <h3>Applications</h3>
+                <ul>
+                    <li>Residential buildings</li>
+                    <li>Commercial complexes</li>
+                    <li>Industrial units</li>
+                    <li>Water treatment plants</li>
+                </ul>
+                <h3>Warranty & Support</h3>
+                <ul>
+                    <li>1 Year manufacturer warranty</li>
+                    <li>24/7 technical support</li>
+                    <li>Pan India service network</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="more-info-modal-2" class="modal more-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Smart Controller - Detailed Information</h2>
+            <div class="detailed-info">
+                <h3>Technical Specifications</h3>
+                <ul>
+                    <li>Operating Voltage: 230V AC</li>
+                    <li>Motor Capacity: Up to 3HP</li>
+                    <li>WiFi: 2.4GHz</li>
+                    <li>App Compatibility: Android & iOS</li>
+                    <li>Installation Type: Wall Mount</li>
+                </ul>
+                <h3>Smart Features</h3>
+                <ul>
+                    <li>Remote monitoring via mobile app</li>
+                    <li>Real-time water level tracking</li>
+                    <li>Automated scheduling</li>
+                    <li>Push notifications</li>
+                    <li>Usage analytics</li>
+                </ul>
+                <h3>Applications</h3>
+                <ul>
+                    <li>Smart homes</li>
+                    <li>Modern apartments</li>
+                    <li>Office buildings</li>
+                    <li>Hotels and resorts</li>
+                </ul>
+                <h3>Warranty & Support</h3>
+                <ul>
+                    <li>2 Years manufacturer warranty</li>
+                    <li>24/7 technical support</li>
+                    <li>Free app updates</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="more-info-modal-3" class="modal more-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Basic Controller - Detailed Information</h2>
+            <div class="detailed-info">
+                <h3>Technical Specifications</h3>
+                <ul>
+                    <li>Operating Voltage: 230V AC</li>
+                    <li>Motor Capacity: Up to 1HP</li>
+                    <li>Sensor Type: Float Switch</li>
+                    <li>Control Type: Semi-Automatic</li>
+                    <li>Installation Type: Wall Mount</li>
+                </ul>
+                <h3>Features</h3>
+                <ul>
+                    <li>Simple and reliable operation</li>
+                    <li>Basic water level detection</li>
+                    <li>Motor protection</li>
+                    <li>Power indicators</li>
+                    <li>Easy to install</li>
+                </ul>
+                <h3>Applications</h3>
+                <ul>
+                    <li>Small homes</li>
+                    <li>Individual flats</li>
+                    <li>Small offices</li>
+                    <li>Shops</li>
+                </ul>
+                <h3>Warranty & Support</h3>
+                <ul>
+                    <li>6 Months warranty</li>
+                    <li>Technical support</li>
+                    <li>Service centers in major cities</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="more-info-modal-4" class="modal more-info-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Premium Controller - Detailed Information</h2>
+            <div class="detailed-info">
+                <h3>Technical Specifications</h3>
+                <ul>
+                    <li>Operating Voltage: 230V AC</li>
+                    <li>Motor Capacity: Up to 5HP</li>
+                    <li>Display: LCD</li>
+                    <li>Control Type: Fully Automatic</li>
+                    <li>Installation Type: Wall Mount</li>
+                </ul>
+                <h3>Premium Features</h3>
+                <ul>
+                    <li>Dual tank management</li>
+                    <li>Advanced LCD interface</li>
+                    <li>Multiple pump support</li>
+                    <li>Energy consumption monitoring</li>
+                    <li>Programmable schedules</li>
+                </ul>
+                <h3>Applications</h3>
+                <ul>
+                    <li>Large residential complexes</li>
+                    <li>Industrial facilities</li>
+                    <li>Commercial buildings</li>
+                    <li>Manufacturing units</li>
+                </ul>
+                <h3>Warranty & Support</h3>
+                <ul>
+                    <li>3 Years comprehensive warranty</li>
+                    <li>Priority technical support</li>
+                    <li>Installation support</li>
+                    <li>Quarterly maintenance</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="footer-content">
+            
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>EMail:<a href="mailto:ganeshgana630032@gmail.com?subject=Portfolio%20Inquiry&body=Hi%20Ganesh,%0D%0A%0D%0AI%20am%20reaching%20out%20regarding%20" 
+                    onclick="window.open('https://mail.google.com/mail/?view=cm&fs=1&to=ganeshgana7569@gmail.com&su=Product+Inquiry&body=Hi+HK+Technology,', '_blank')">
+                     <i class="fas fa-enveloe"></i>
+                     ganeshgana63003262@gmail.com </a></p>
+                <p>Phone: <a href="tel:+917569934038">+91 7569934038</a></p>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#products">Products</a></li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 HK Technology. All rights reserved.</p>
+        </div>
+
+    </footer>
+
+
+
+
+</body>
+</html> 
