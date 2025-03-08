@@ -24,5 +24,5 @@ Footer by using the quick links:
 
 
 
-When You click the Call Back Button it should open the form and collecting the date and Moving those date into the backend Database.
+When You click the Call Back Button it should open the form and collecting the data and Moving those data into the backend Database.
 ![image](https://github.com/user-attachments/assets/9303c775-19fa-4e47-b933-db0e376a0758)
