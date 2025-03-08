@@ -1,12 +1,14 @@
 # E-commerce-Website--Hk-Technology
 Its a Service Marketplace website ,for the marketing the bussiness purpose. and Responsive Wbsite For the all the Devices.
 
-Home:
-![image](https://github.com/user-attachments/assets/109feeb8-495d-4cac-adf1-66e3044e1eaa)
-
 Website Link:
 
 https://67cbece5b007956828f9bff2--zippy-baklava-ee6095.netlify.app/
+
+Home:
+![image](https://github.com/user-attachments/assets/109feeb8-495d-4cac-adf1-66e3044e1eaa)
+
+
 
 About:
 ![image](https://github.com/user-attachments/assets/763362c0-5895-40a3-bba9-39576b12b001)
